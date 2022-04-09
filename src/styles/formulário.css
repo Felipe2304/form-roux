@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #302d47;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+}
+.imagem-mascote {
+  width: 200px;
+  margin-bottom: 5%;
+}
+.caixa-informações {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+}
+.informações {
+  width: 390px;
+  height: 35px;
+  background-color: #3f3d56;
+  color: #8d8ba4;
+  font-size: 16px;
+  padding: 6px 0 6px 15px;
+  border: none;
+  border-radius: 7px;
+  transition-duration: 300ms;
+  border: 1px solid #3f3d56;
+  box-sizing: border-box;
+  margin-bottom: 3%;
+}
+.informações:hover {
+  border: 1px solid #8d8ba4;
+  background-color: transparent;
+}
+.informações::placeholder {
+  background-color: transparent;
+}
+.informações-email {
+  margin-bottom: 15px;
+}
+
+.informações-senha {
+  margin-bottom: 16px;
+}
+
+.acesso {
+  width: 390px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.link {
+  color: #b9b8ba;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.botão {
+  background-color: #6c63ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+}
+
+.botão,
+.botão-entrar {
+  width: 130px;
+  height: 35px;
+  font-size: 16px;
+  border: 1px solid #6c63ff;
+  transition-duration: 300ms;
+}
+.botão-entrar:hover {
+  background-color: transparent;
+  color: #6c63ff;
+}
+
+.telefone-contato {
+  width: 390px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DDD {
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.telefone {
+  width: 290px;
+}
+.botão-criar-conta {
+  width: 190px;
+  border: 1px solid #6c63ff;
+  transition-duration: 300ms;
+}
+.botão-criar-conta:hover {
+  background-color: transparent;
+  color: #6c63ff;
+}
